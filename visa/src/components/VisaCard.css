@@ -1,0 +1,22 @@
+.visa-card {
+  width: 100%;
+  max-width: 380px;
+  height: 220px;
+  border-radius: 15px;
+  padding: 25px;
+  margin: 0 auto;
+  color: white;
+  position: relative;
+  z-index: 5;
+  transition: 0.5s;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+}
+.visa { background: linear-gradient(135deg, #f7a103, #0d47a1); }
+.mastercard { background: linear-gradient(135deg, #37474f, #263238); }
+.unknown { background: linear-gradient(135deg, #424242, #212121); }
+
+.card-header { display: flex; justify-content: space-between; }
+.card-chip { width: 50px; height: 35px; background: #ffca28; border-radius: 5px; }
+.card-number { font-size: 1.4rem; letter-spacing: 3px; margin: 40px 0; text-align: center; }
+.label { font-size: 10px; opacity: 0.7; margin: 0; }
+.value { font-size: 14px; margin: 0; text-transform: uppercase; }
