@@ -1,6 +1,6 @@
 import React from 'react';
 import { Box, Typography, Container } from '@mui/material';
-import '../css/Footer.css'; // مسار صحيح: اخرج لمجلد css
+import '../css/Footer.css'; 
 
 const Footer = () => (
   <Box component="footer" className="footer-box">

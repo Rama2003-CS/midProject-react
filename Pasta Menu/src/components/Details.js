@@ -1,7 +1,7 @@
 import React from 'react';
 import { useLocation, useNavigate } from 'react-router-dom';
 import { Button, Container, Typography, Paper, Box } from '@mui/material';
-import '../css/Details.css'; // مسار صحيح: اخرج لمجلد css
+import '../css/Details.css';   
 
 const Details = () => {
   const { state: dish } = useLocation();

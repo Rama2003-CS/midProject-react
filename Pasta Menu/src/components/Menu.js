@@ -1,8 +1,8 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import { Card, CardContent, CardMedia, Typography, Grid, Container } from '@mui/material';
-import { pastaMenu } from './data'; // مسار صحيح: نفس المجلد
-import '../css/Menu.css'; // مسار صحيح: اخرج لمجلد css
+import { pastaMenu } from './data'; 
+import '../css/Menu.css'; 
 
 const Menu = () => {
   const navigate = useNavigate();

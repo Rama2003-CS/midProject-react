@@ -6,6 +6,7 @@
 
 .dish-card {
   height: 100%; /* عشان كل الكاردات بنفس الطول */
+  width: 100%;
   display: flex;
   flex-direction: column;
   border-radius: 20px !important;

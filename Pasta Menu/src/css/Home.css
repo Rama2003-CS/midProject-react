@@ -1,6 +1,6 @@
 .home-hero {
   background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), 
-              url('https://i.pinimg.com/736x/0b/40/e2/0b40e2edfb8f8e64855cef454840892e.jpg'); /* صورة خلفية باستا */
+              url('https://i.pinimg.com/736x/0b/40/e2/0b40e2edfb8f8e64855cef454840892e.jpg');   
   background-size: cover;
   background-position: center;
   min-height: 80vh;

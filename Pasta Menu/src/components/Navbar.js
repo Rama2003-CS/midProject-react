@@ -1,7 +1,7 @@
 import React from 'react';
 import { AppBar, Toolbar, Typography, Button, Container } from '@mui/material';
 import { Link } from 'react-router-dom';
-import '../css/Navbar.css'; // مسار صحيح: اخرج لمجلد css
+import '../css/Navbar.css'; 
 
 const Navbar = () => (
   <AppBar position="sticky" className="navbar-appbar">

@@ -1,7 +1,7 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import { Button, Container, Typography, Box } from '@mui/material';
-import '../css/Home.css'; // تأكد من إنشاء هذا الملف
+import '../css/Home.css'; 
 
 const Home = () => {
   const navigate = useNavigate();
@@ -21,7 +21,7 @@ const Home = () => {
         <Button 
           variant="contained" 
           size="large" 
-          onClick={() => navigate('/menu')} // هون الزر اللي بيدخل للمنيو
+          onClick={() => navigate('/menu')}   
           sx={{ 
             bgcolor: '#d32f2f', 
             fontSize: '1.5rem', 
