@@ -1,0 +1,47 @@
+.menu-container {
+  padding-top: 40px;
+  padding-bottom: 60px;
+  direction: rtl;
+}
+
+.dish-card {
+  height: 100%; /* عشان كل الكاردات بنفس الطول */
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px !important;
+  overflow: hidden;
+  transition: all 0.3s ease !important;
+  cursor: pointer;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1) !important;
+}
+
+.dish-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 30px rgba(0,0,0,0.2) !important;
+}
+
+.dish-image {
+  height: 220px !important;
+  width: 200% !important; /* توحيد ارتفاع الصورة */
+  object-fit: cover;
+  grid-template-rows: auto auto !important; /* بتخلي الصورة تاخد كل المساحة المتاحة */
+}
+
+.dish-content {
+  flex-grow: 1; /* بتخلي منطقة النص تاخد باقي المساحة بالتساوي */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+  padding: 20px !important;
+}
+
+.dish-title {
+  font-weight: bold !important;
+  font-size: 1.3rem !important;
+  margin-bottom: 10px !important;
+  min-height: 3.2em; /* بتضمن إنه حتى لو الاسم قصير، ياخد مساحة سطرين */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
